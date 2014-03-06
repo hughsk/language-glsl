@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "name": "language-glsl",
+  "description": "Atom language support for GLSL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hughsk/language-glsl.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hughsk/language-glsl/issues"
+  },
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/hughsk/language-glsl",
+  "keywords": [
+    "language",
+    "glsl",
+    "atom",
+    "editor",
+    "syntax"
+  ]
+}
