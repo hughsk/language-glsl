@@ -4,11 +4,11 @@
 #define LOREM_IPSUM
 #endif
 
+#pragma GENERIC_PRAGMA
+
 #pragma glslify: noise = require(glsl-noise)
 #pragma glslify: random = require(glsl-random)
 #pragma glslify: export(x)
-
-#pragma GENERIC_PRAGMA
 
 void main() {
   vec3 a = noise(gl_FragColor.xy);
