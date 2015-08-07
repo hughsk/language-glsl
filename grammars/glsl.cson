@@ -33,7 +33,7 @@
     'name': 'storage.type.glsl'
   }
   {
-    'match': '\\b(attribute|centroid|sample|patch|const|flat|in|inout|invariant|noperspective|out|smooth|uniform|varying|buffer|shared)\\b'
+    'match': '\\b(attribute|centroid|sample|patch|const|flat|in|inout|invariant|noperspective|out|smooth|uniform|varying|buffer|shared|lowp|mediump|highp)\\b'
     'name': 'storage.modifier.glsl'
   }
   {
