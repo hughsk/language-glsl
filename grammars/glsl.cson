@@ -11,6 +11,7 @@
   'vert'
   'frag'
   'geom'
+  'comp'
   'f.glsl'
   'v.glsl'
   'g.glsl'
