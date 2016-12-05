@@ -12,6 +12,8 @@
   'frag'
   'geom'
   'comp'
+  'tesc'
+  'tese'
   'f.glsl'
   'v.glsl'
   'g.glsl'
