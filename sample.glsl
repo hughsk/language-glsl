@@ -14,6 +14,6 @@ void main() {
   vec3 a = noise(gl_FragColor.xy);
   vec3 b = y.xyz;
   float c = 1.0;
-  int d = 10;
+  int d = 190;
   a.xyz = gl_FragColor.xyz;
 }

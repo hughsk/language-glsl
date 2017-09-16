@@ -26,7 +26,7 @@
   }
   {
     'match': '(?<!\\.)\\b[0-9]+\\b(?!\\.)'
-    'name': 'invalid.illegal.glsl'
+    'name': 'support.variable.glsl'
   }
   {
     'match': '\\b(break|case|continue|default|discard|do|else|for|if|return|switch|while)\\b'
