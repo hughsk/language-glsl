@@ -54,23 +54,25 @@
   }
   {
     'comment': 'glslify export statements'
-    'begin': '#(pragma glslify:)\\s*(export)(\\()([^(]+)(\\))'
+    'begin': '(#)\\s*(pragma glslify:)\\s*(export)(\\()([^(]+)(\\))'
     'beginCaptures': {
-      '1': { 'name': 'meta.preprocessor.keyword.import.define.glsl' }
-      '2': { 'name': 'keyword.operator.glsl' }
-      '4': { 'name': 'entity.name.function.glsl' }
+      '1': { 'name': 'punctuation.definition.keyword.glsl' }
+      '2': { 'name': 'meta.preprocessor.keyword.import.define.glsl' }
+      '3': { 'name': 'keyword.operator.glsl' }
+      '5': { 'name': 'entity.name.function.glsl' }
     }
     'end': '\\n'
   }
   {
     'comment': 'glslify require statements'
-    'begin': '#(pragma glslify:)([^=]+)(\\s*=\\s*)?(require)(\\()([^(]+)(\\))'
+    'begin': '(#)\\s*(pragma glslify:)([^=]+)(\\s*=\\s*)?(require)(\\()([^(]+)(\\))'
     'beginCaptures': {
-      '1': { 'name': 'meta.preprocessor.keyword.import.define.glsl' }
-      '2': { 'name': 'entity.name.function.glsl' }
-      '3': { 'name': 'operator.glsl' }
-      '4': { 'name': 'keyword.operator.glsl' }
-      '6': { 'name': 'string.quoted.double' }
+      '1': { 'name': 'punctuation.definition.keyword.glsl' }
+      '2': { 'name': 'meta.preprocessor.keyword.import.define.glsl' }
+      '3': { 'name': 'entity.name.function.glsl' }
+      '4': { 'name': 'operator.glsl' }
+      '5': { 'name': 'keyword.operator.glsl' }
+      '7': { 'name': 'string.quoted.double' }
     }
     'end': '\\n'
   }
