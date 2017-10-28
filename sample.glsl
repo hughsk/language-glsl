@@ -13,6 +13,7 @@
 void main() {
   vec3 a = noise(gl_FragColor.xy);
   vec3 b = y.xyz;
+  ivec4 c = ivec4(0);
 
   a.xyz = gl_FragColor.xyz;
 }
