@@ -8,7 +8,7 @@
 
 #pragma glslify: noise = require(glsl-noise)
 #pragma glslify: random = require(glsl-random)
-#pragma glslify: export(x)s
+#pragma glslify: export(x)
 
 void main() {
   vec3 a = noise(gl_FragCoord.xy);

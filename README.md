@@ -10,4 +10,4 @@ from [polym0rph](https://github.com/polym0rph)'s
 Extended to support [glslify](http://github.com/stackgl/glslify) require/export
 statements.
 
-![language-glsl](http://imgur.com/dJGHJ1m.png)
+<img src="https://cl.ly/2S402M3x1602/screenshot.png" alt="screenshot" width="434">
