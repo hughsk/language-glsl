@@ -1,6 +1,7 @@
 'fileTypes': [
   'vs'
   'fs'
+  'fx'
   'gs'
   'cs'
   'tc'
