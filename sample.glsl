@@ -8,7 +8,16 @@
 
 #pragma glslify: noise = require(glsl-noise)
 #pragma glslify: random = require(glsl-random)
-#pragma glslify: export(x)
+
+// this is a comment, and you can see the variable "gl_Layer" is NOT highlighted.
+
+#define PI 3.14159
+
+float y(float x) {
+  return sin(x*2.0*PI);
+}
+
+#pragma glslify: export(y)
 
 void main() {
   vec3 a = noise(gl_FragCoord.xy);
