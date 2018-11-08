@@ -36,6 +36,10 @@
     'name': 'keyword.control.glsl'
   }
   {
+    'match': '^\\s*#version .*$'
+    'name': 'meta.preprocessor.keyword.version.glsl'
+  }
+  {
     'match': '\\b(void|bool|int|uint|float|double|vec[2-4]|dvec[2-4]|bvec[2-4]|ivec[2-4]|uvec[2-4]|mat[2-4]|mat[2-4]x[2-4]|dmat[2-4]|dmat[2-4]x[2-4]|sampler[1-3]D|samplerCube|sampler2DRect|sampler[1|2]DShadow|sampler2DRectShadow|sampler[1|2]DArray|sampler[1|2]DArrayShadow|samplerBuffer|sampler2DMS|sampler2DMSArray|struct|isampler[1-3]D|isamplerCube|isampler2DRect|isampler[1|2]DArray|isamplerBuffer|isampler2DMS|isampler2DMSArray|usampler[1-3]D|usamplerCube|usampler2DRect|usampler[1|2]DArray|usamplerBuffer|usampler2DMS|usampler2DMSArray)\\b'
     'name': 'storage.type.glsl'
   }
