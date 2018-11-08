@@ -23,8 +23,11 @@ void main() {
   vec3 a = noise(gl_FragCoord.xy);
   vec4 b = a.zyxx;
   ivec4 c = ivec4(0);
-  mat2 d = mat2(1);
-  mat3 e = mat3(a, b, vec3(2));
+  mat2 d = mat2(1.0);
+  mat3 e = mat3(a, b, vec3(2.0));
+
+  b.x = 1.5;
+  c.y = 190;
 
   a.xyz = gl_FragCoord.xyz;
 
