@@ -1,3 +1,5 @@
+#version 330 core
+
 #ifndef HELLO_WORLD
   #define HELLO_WORLD vec3(0.0, 0.0, 0.0)
 #else
