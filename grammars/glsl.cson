@@ -22,6 +22,7 @@
   'v.glsl'
   'g.glsl'
   'glsl'
+  'sksl'
 ]
 'foldingStartMarker': '/\\*\\*|\\{\\s*$'
 'foldingStopMarker': '\\*\\*/|^\\s*\\}'
